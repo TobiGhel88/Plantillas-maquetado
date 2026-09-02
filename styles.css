@@ -1,0 +1,14 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+.barrita{display: flex;
+justify-content: center;
+align-items: center;
+height: 33vh;}
+.naranjita{
+height: ;
+width: 80%;
+background-color: #ffd680;
+}
