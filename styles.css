@@ -6,9 +6,63 @@ box-sizing: border-box;}
 .barrita{display: flex;
 justify-content: center;
 align-items: center;
-height: 33vh;}
+height: 25vh;
+background-color: blueviolet;
+}
 .naranjita{
-height: ;
+height:40% ;
 width: 80%;
 background-color: #ffd680;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+gap: 3rem;
+}
+.raya{
+width: 10%;
+height: 12.5%;
+background-color:white;}
+
+.artículo{
+height: 75vh;
+width:100% ;
+display: flex;
+flex-wrap: nowrap;
+}
+
+.izq{height: 100%;
+width: 29%;
+background-color: #ffff00;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: nowrap
+;
+}
+.rectangulito{
+    width:75% ;
+    height: 40%;
+    background-color: chocolate;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.rectangulito-mas-chiquito{
+width: 75%;
+height: 55%;
+background-color: #91420a
+;
+}
+.textitos{width: 75%;
+height: 60%;
+background-color: crimson;
+}
+
+
+
+.der{ background-color: aqua;
+    height: 100%;
+width: 70%;
 }
