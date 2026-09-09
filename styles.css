@@ -7,7 +7,7 @@ box-sizing: border-box;}
 justify-content: center;
 align-items: center;
 height: 25vh;
-background-color: blueviolet;
+background-color: white;
 }
 .naranjita{
 height:40% ;
@@ -29,11 +29,12 @@ height: 75vh;
 width:100% ;
 display: flex;
 flex-wrap: nowrap;
+justify-content: space-evenly;
 }
 
 .izq{height: 100%;
 width: 29%;
-background-color: #ffff00;
+background-color: white;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -42,9 +43,9 @@ flex-wrap: nowrap
 ;
 }
 .rectangulito{
-    width:75% ;
-    height: 40%;
-    background-color: chocolate;
+    width:70% ;
+    height: 35%;
+    background-color: #ffd680;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -52,17 +53,77 @@ flex-wrap: nowrap
 .rectangulito-mas-chiquito{
 width: 75%;
 height: 55%;
-background-color: #91420a
+background-color: #ffb959
 ;
 }
-.textitos{width: 75%;
-height: 60%;
-background-color: crimson;
+.textitos{width: 70%;
+height: 55%;
+background-color: white;
+display: flex;
+flex-direction: column;
+
 }
 
+.blanco{
+height: 1.8rem;
+width:100% ;
+background-color: #cccbca;
+margin-top: 2.5rem;
+}
 
+.gris{
+    height: 1.8rem;
+    width: 50%;
+    background-color: #656a73;
+    margin-top: 2.5rem;
+    margin-left: 8.7rem;
+}
 
-.der{ background-color: aqua;
+.der{ background-color: white;
     height: 100%;
-width: 70%;
+width: 71%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
+
+.grande{    
+    width:85%;
+    height: 80%;
+    background-color: #656a73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3rem;
+}
+.más-chico{
+    width: 18rem;
+    height: 18rem;
+    background-color: #474f59;
+}
+
+.comentario{
+    width: 28rem;
+    height: 18rem;
+    background-color: #656a73;
+}
+
+.titulito{
+width: 40%;
+height: 1.5rem;
+background-color: #ffd680;
+margin-left:10% ;
+}
+
+
+.linea{height: 0.4rem;
+width: 80%;
+background-color: #cccbca;
+margin: 1rem;
+margin-left: 2.8rem;
+}
+.linea5{height: 0.4rem;
+    width: 50%;
+    background-color: #cccbca;
+    margin: 1rem;
+    margin-left: 7rem;}
